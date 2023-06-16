@@ -8,7 +8,7 @@ POST {{URL}}/create.php
 Content-Type: application/json
 
 {
-    "id_usuario": 5,
+    "id_usuario": 1,
     "itens": [
         {
             "id_produto": 1,
@@ -24,14 +24,14 @@ Content-Type: application/json
 }
 
 ###
-GET {{URL}}/delete.php?id=6
+GET {{URL}}/delete.php?id=4
 
 ###
 POST {{URL}}/update.php?id=5
 Content-Type: application/json
 
 {
-    "id_usuario": "2",
-    "valor": "100",
+    "id_usuario": "1",
+    "valor": "110",
     "data": "2021-05-05"
 }

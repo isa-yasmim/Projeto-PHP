@@ -8,7 +8,7 @@ POST {{URL}}/create.php
 Content-Type: application/json
 
 {
-    "nome": "FPS"
+    "nome": "MMORPG"
 } 
 
 ###
@@ -17,9 +17,9 @@ GET {{URL}}/delete.php?id=5
 
 ###
 
-POST {{URL}}/update.php?id=5
+POST {{URL}}/update.php?id=3
 Content-Type: application/json
 
 {
-    "nome": "Terror"
+    "nome": "MMO"
 }

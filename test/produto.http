@@ -8,9 +8,9 @@ POST {{URL}}/create.php
 Content-Type: application/json
 
 {
-    "nome": "Resident Evil 3",
-    "descricao": "Se passa em Raccon city em 1998, jogo de terror e sobrevivencia",
-    "id_categoria": 4,
+    "nome": "Resident Evil 2",
+    "descricao": "Se passa em Raccon city em 1998, jogo de terror e sobrevivencia, tem dois protagonistas",
+    "id_categoria": 2,
     "preco": 200.00,
     "quantidade": 10
 }
