@@ -5,21 +5,24 @@ GET {{URL}}/get.php
 
 ###
 POST {{URL}}/create.php
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiJ9.eMxGLuPQzTZsaRWIbZoRPEh4s6qFIDGrBJhWiJZaNR4
 Content-Type: application/json
 
 {
-    "nome": "Resident Evil 2",
-    "descricao": "Se passa em Raccon city em 1998, jogo de terror e sobrevivencia, tem dois protagonistas",
-    "id_categoria": 2,
+    "nome": "Rainbow Six Siege",
+    "descricao": "Jogue com diferentes operadores, cada um com sua habilidade unica",
+    "id_categoria": 1,
     "preco": 200.00,
     "quantidade": 10
 }
 
 ###
 GET {{URL}}/delete.php?id=8
+//Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiJ9.eMxGLuPQzTZsaRWIbZoRPEh4s6qFIDGrBJhWiJZaNR4
 
 ###
 POST {{URL}}/update.php?id=7
+//Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiJ9.eMxGLuPQzTZsaRWIbZoRPEh4s6qFIDGrBJhWiJZaNR4
 Content-Type: application/json
 
 {

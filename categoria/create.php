@@ -2,6 +2,8 @@
     
     require_once('../db/connection.inc.php');
     require_once('categoria.dao.php');
+    //admin
+    require_once('../auth/validate-jwt.inc.php');
 
     $categoriaDAO = new categoriaDAO($pdo);
 

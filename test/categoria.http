@@ -5,6 +5,7 @@ GET {{URL}}/get.php
 ###
 
 POST {{URL}}/create.php
+//Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiJ9.eMxGLuPQzTZsaRWIbZoRPEh4s6qFIDGrBJhWiJZaNR4
 Content-Type: application/json
 
 {
@@ -14,10 +15,12 @@ Content-Type: application/json
 ###
 
 GET {{URL}}/delete.php?id=5
+//Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiJ9.eMxGLuPQzTZsaRWIbZoRPEh4s6qFIDGrBJhWiJZaNR4
 
 ###
 
 POST {{URL}}/update.php?id=3
+//Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiJ9.eMxGLuPQzTZsaRWIbZoRPEh4s6qFIDGrBJhWiJZaNR4
 Content-Type: application/json
 
 {

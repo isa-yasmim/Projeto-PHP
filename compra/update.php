@@ -3,6 +3,8 @@
     //Abrir
     require_once('../db/connection.inc.php');
     require_once('compra.dao.php');
+    //admin
+    require_once('../auth/validate-jwt.inc.php');
 
     //Instanciar
     $compraDAO = new compraDAO($pdo);

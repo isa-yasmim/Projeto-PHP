@@ -3,6 +3,8 @@
     //Abrir
     require_once('../db/connection.inc.php');
     require_once('produto.dao.php');
+    //admin
+    require_once('../auth/validate-jwt.inc.php');
 
     //Instanciar
     $produtoDAO = new produtoDAO($pdo);
