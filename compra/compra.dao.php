@@ -32,11 +32,10 @@
             $compra->id = $this->pdo->lastInsertId();
 
             foreach($compra->itens as $item) {
-                //insert into tb_compra_produto (id_compra, id_produto, quantidade) values (?,?,?);
-
+                $stmt = $this->pdo->prepare("INSERT INTO tb_compra_produto(id_compra, id_produto, quantidade) VALUES (?, ?, ?)");
                 $stmt->bindParam(1, $compra->id);
-                $stmt->bindParam(2, $compra->valor);
-                $stmt->bindParam(3, $compra->data);
+                $stmt->bindParam(2, $item->id_produto);
+                $stmt->bindParam(3, $item->quantidade);
             }
 
             return $compra;
