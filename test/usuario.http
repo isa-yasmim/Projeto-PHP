@@ -1,0 +1,33 @@
+@URL=http://localhost/EcommerceBE/usuario
+
+GET {{URL}}/get.php
+
+###
+
+POST {{URL}}/create.php
+Content-Type: application/json
+
+{
+    "nome": "Evangeline",
+    "email": "evangeline@gmail.com",
+    "senha": "131313",
+    "nascimento": "2020-10-10",
+    "adm": "1"
+} 
+
+###
+
+GET {{URL}}/delete.php?id=4
+
+###
+
+POST {{URL}}/update.php?id=2
+Content-Type: application/json
+
+{
+    "nome": "Isa",
+    "email": "email@gmail.com",
+    "senha": "1234",
+    "nascimento": "2020-10-10",
+    "adm": "1"
+}

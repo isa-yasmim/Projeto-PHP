@@ -1,0 +1,32 @@
+@URL = https://localhost/EcommerceBE/produto
+
+###
+GET {{URL}}/get.php
+
+###
+POST {{URL}}/create.php
+Content-Type: application/json
+
+{
+    "nome": "Resident Evil 3",
+    "descricao": "Se passa em Raccon city em 1998, jogo de terror e sobrevivencia",
+    "id_categoria": 4,
+    "preco": 200.00,
+    "quantidade": 10
+}
+
+###
+GET {{URL}}/delete.php?id=8
+
+###
+POST {{URL}}/update.php?id=7
+Content-Type: application/json
+
+{
+    "nome": "Resident Evil 3",
+    "descricao": "Se passa em Raccon city em 1998, jogo de terror e sobrevivencia",
+    "id_categoria": 4,
+    "preco": 200.00,
+    "quantidade": 10
+}
+

@@ -1,0 +1,25 @@
+@URL=http://localhost/EcommerceBE/categoria
+
+GET {{URL}}/get.php
+
+###
+
+POST {{URL}}/create.php
+Content-Type: application/json
+
+{
+    "nome": "FPS"
+} 
+
+###
+
+GET {{URL}}/delete.php?id=5
+
+###
+
+POST {{URL}}/update.php?id=5
+Content-Type: application/json
+
+{
+    "nome": "Terror"
+}
