@@ -1,0 +1,12 @@
+### cliente de autenticacao
+
+@URL=http://localhost/EcommerceBE/auth
+
+### recurso
+
+POST {{URL}}/auth.php
+
+{
+    "username": "admin",
+    "password": "admin"
+}
